@@ -1,0 +1,119 @@
+<!DOCTYPE Html>
+<head>
+  <title>Hacker's blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel= "stylesheet">
+  <link href="css/styles.css" rel= "stylesheet">
+</head>
+<body>
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class = "container">
+      <a href="#" class="navbar-brand">Website</a>
+      <button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse navHeaderCollapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class = "active"><a href="#">Home</a></li>
+          <li><a href="#apps" data-toggle="modal">Contact</a></li>
+          <li><a href="#">Downloads</a></li>
+          <li class = "dropdown"><a href="#" class = "dropdown-toggle" data-toggle = "dropdown">Profile<b class = "caret"></b></a>
+            <ul class = "dropdown-menu">
+              <li ><a href="#">First</a></li>
+              <li><a href="#">Second</a></li>
+              <li><a href="#">Third</a></li>
+            </ul></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Welcome to Hacker's blog</h1>
+        <p>If the elements are used to act as buttons – triggering in-page functionality,
+           rather than navigating to another document or section within the current page – they should also be given an appropriate
+            role="button".
+        </p>
+        <a class="btn btn-default">Booyaka</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h1>My column</h1>
+          If the elements are used to act as buttons – triggering in-page functionality,
+             rather than navigating to another document or section within the current page – they should also be given an appropriate
+              role="button".
+              <a href="#" class="btn btn-default">Read More</a>
+          </div>
+          <div class="col-md-4">
+            <h1>My column</h1>
+            If the elements are used to act as buttons – triggering in-page functionality,
+               rather than navigating to another document or section within the current page – they should also be given an appropriate
+                role="button".
+                <a href="#" class="btn btn-default">Read More</a>
+            </div>
+            <div class="col-lg-4">
+              <h1>My column</h1>
+              If the elements are used to act as buttons – triggering in-page functionality,
+                 rather than navigating to another document or section within the current page – they should also be given an appropriate
+                  role="button".
+                  <a href="#" class="btn btn-default">Read More</a>
+              </div>
+      </div>
+    </div>
+    <div class = "navbar navbar-default navbar-static-bottom">
+      <div class = "container">
+        <p class="navbar-text" pull-right>All rights reserved</p>
+        <a class="btn navbar-btn btn-primary pull-right">Follow on Social</a>
+      </div>
+    </div>
+    <div class="modal fade" id="apps" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form class="form-horizontal">
+          <div class="modal-header">
+            <h1>Contact us</h1>
+            </div>
+          <div class="modal-body">
+            <h4>Fill up your details</h4>
+            <div class="form-group">
+            <label for = "contact-name" class="col-lg-2 control-label">Name:</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+            </div>
+            </div>
+            <div class="form-group">
+            <label for = "contact-email" class="col-lg-2 control-label">Email:</label>
+            <div class="col-lg-10">
+              <input type="email" class="form-control" id="contact-email" placeholder="johndoe@example.com">
+            </div>
+            </div>
+            <div class="form-group">
+            <label for = "contact-msg" class="col-lg-2 control-label">Message:</label>
+            <div class="col-lg-10">
+              <textarea class="form-control" rows="6"></textarea>
+            </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" type="submit">Confirm</button>
+            <button class="btn btn-default" data-dismiss="modal">Cancel</button>
+          </div>
+
+        </form>
+        </div>
+
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+  </html
